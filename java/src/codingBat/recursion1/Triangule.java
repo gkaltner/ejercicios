@@ -11,9 +11,13 @@ public class Triangule {
         System.out.println(triangle(0)); //0
         System.out.println(triangle(1)); //1
         System.out.println(triangle(2)); //3
+        System.out.println(triangle(3)); //6
     }
 
     public static int triangle(int rows) {
-        return 0;
+        if(rows == 0){
+            return 0;
+        }
+        return rows + triangle(rows-1);
     }
 }
