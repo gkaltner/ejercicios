@@ -1,4 +1,4 @@
-package bitmapManipulation;
+package leetCode.bitmapManipulation;
 
 import java.util.ArrayList;
 import java.util.List;

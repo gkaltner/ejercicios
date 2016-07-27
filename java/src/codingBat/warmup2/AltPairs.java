@@ -2,7 +2,7 @@ package codingBat.warmup2;
 
 /**
  * Created by gaston on 25/07/16.
- * Given a string, return a string made of the chars at indexes 0,1, 4,5, 8,9 ... so "kittens" yields "kien".
+ * Given a leetCode.string, return a leetCode.string made of the chars at indexes 0,1, 4,5, 8,9 ... so "kittens" yields "kien".
  */
 public class AltPairs {
 

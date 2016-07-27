@@ -1,4 +1,4 @@
-package string;
+package leetCode.string;
 
 /**
  * Created by Gaston Kaltner on 29/07/15.
