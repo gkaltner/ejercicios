@@ -14,12 +14,17 @@ public class ReverseString {
 
     }
 
-    public static String reverseString(String s) {
+    /*public static String reverseString(String s) {
         if(s == null) return null;
         char[] rs = new char[s.length()];
         for(int i = s.length()-1,j=0;i >= 0;i--,j++){
             rs[j] = s.charAt(i);
         }
         return new String(rs);
+    }*/
+
+    public static String reverseString(String s) {
+        StringBuilder sb=  new StringBuilder(s);
+        return sb.reverse().toString();
     }
 }
