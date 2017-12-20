@@ -10,8 +10,7 @@ public class ReverseString {
         System.out.println(reverseString("hello")); //olleh
         System.out.println(reverseString("h")); //h
         System.out.println(reverseString("")); //h
-        System.out.println(reverseString(null)); //h
-
+        //System.out.println(reverseString(null));
     }
 
     /*public static String reverseString(String s) {
