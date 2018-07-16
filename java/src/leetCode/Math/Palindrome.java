@@ -8,23 +8,18 @@ package leetCode.Math;
 public class Palindrome {
 
     public static void main(String []args){
-        System.out.println(isPalindrome("abccba")); //false
-        System.out.println(isPalindrome("abccbx")); // true
-        System.out.println(isPalindrome("abccfg")); // true
+        System.out.println(isPalindrome("abccba")); //true
+        System.out.println(isPalindrome("abccbx")); //true
+        System.out.println(isPalindrome("abccfg")); //false
 
     }
 
 
     public static boolean isPalindrome(String x) {
         char[] evaluate = String.valueOf(x).toCharArray();
-        int caracterPermitido = 1;
         for(int i = 0; i < evaluate.length/2;i++){
             if(evaluate[i] != evaluate[evaluate.length-1-i]){
-                if(caracterPermitido == 0){
-                    return false;
-                }else{
-                    caracterPermitido--;
-                }
+                return false;
             }
         }
         return true;
