@@ -1,6 +1,5 @@
 package collections;
 
-import sun.reflect.generics.tree.Tree;
 
 import java.util.*;
 
@@ -11,7 +10,7 @@ public class CollectionsAndMaps {
 
     public static void main(String args[]){
 
-        TreeSet<Integer> treeSet = new TreeSet<Integer>();
+        TreeSet<Integer> treeSet = new TreeSet<>();
         treeSet.addAll(ran());
 
         for (Integer el: treeSet){
